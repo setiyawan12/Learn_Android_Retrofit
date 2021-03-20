@@ -8,10 +8,18 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/tvresult"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Home Fragment"
+        android:text="Favorit Fragment"
         android:textColor="#fff"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:visibility="gone"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_coment"/>
+
 
 </FrameLayout>
